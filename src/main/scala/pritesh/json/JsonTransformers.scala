@@ -39,11 +39,4 @@ object JsonTransformers {
 
   def all(transforms: Reads[_ <: JsValue]*): Reads[_ <: JsValue] =
     transforms.foldLeft[Reads[_ <: JsValue]](Reads.JsObjectReads)(_ andThen _)
-
-  def manual(fn: JsValue => JsValue): Reads[_ <: JsValue] =
-    of[JsValue].map { case old: JsValue => fn(old) }
-
-  def using[A <: JsValue](fn: JsValue => Reads[A]): Reads[A] =
-    of[JsValue].flatMap[A] { case old: JsValue => fn(old) }
-
 }
