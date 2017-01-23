@@ -20,7 +20,7 @@ It adds:
 `withReadTransformers`
 
 
-It also gives some default transformers which you can use with these methods.
+Part of this library are some basic transformers which you can use with these methods.
 
 To get the extra functions and transformers add these imports:
 
