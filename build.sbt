@@ -1,6 +1,6 @@
 name := "play-json-quick-transforms"
 
-version := "1.0.2"
+version := "1.0.3"
 
 scalaVersion := "2.11.1"
 
