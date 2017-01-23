@@ -8,7 +8,7 @@ To use add this to your build.sbt
 resolvers += Resolver.bintrayRepo("pritesh-patel", "maven")
 
 libraryDependencies ++= Seq(
-  "priteshpatel" %% "play-json-quick-transforms" % "1.0.2"
+  "priteshpatel" %% "play-json-quick-transforms" % "1.0.3"
 )
 ```
 
