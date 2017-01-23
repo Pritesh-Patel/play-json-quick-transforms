@@ -1,6 +1,8 @@
-import play.api.libs.json._
+package pritesh.json
+
 import play.api.libs.json.Json.JsValueWrapper
 import play.api.libs.json.Reads.of
+import play.api.libs.json._
 
 object JsonTransformers {
   import play.api.libs.json.__

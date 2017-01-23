@@ -1,3 +1,5 @@
+package pritesh.json
+
 import play.api.libs.json._
 
 object QuickTransforms {

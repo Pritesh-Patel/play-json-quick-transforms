@@ -1,6 +1,6 @@
 import play.api.libs.json._
-import JsonTransformers._
-import QuickTransforms._
+import pritesh.json.JsonTransformers
+import pritesh.json.QuickTransforms._
 
 case class TestClass(image: String, data2: String, data3: String)
 
